@@ -1,0 +1,244 @@
+ .filterbg {
+            /* background-color: rgba(0, 0, 0, .6); */
+            
+            background-color: #000;
+			opacity:.9;
+        }
+        .hrfilter {
+            background-color: #ccc;
+           width: 90%;
+margin-left: 9%;
+    margin-top: 0;
+        }
+		.roomtype-form .topmargin{
+			padding-left: 9px !important;
+		}
+        .filtername {
+            color: #ffc111;
+        }
+		.content{
+		display:none !important
+		}
+        .dropimg {
+            padding: 3px;
+            margin: 0;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+            border: none;
+            background-image: url(../images/chevron.svg);
+            outline: none;
+            position: relative;
+            background-repeat: no-repeat;
+            background-position: 100% 0;
+            background-size: contain;
+            display: inline-block;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            cursor: pointer;
+            /* background-image: url(images/chevron.svg) ; 
+			    background-repeat:no-repeat;	 
+			   float: right;
+			   appearance: none;
+			    padding: 2px 2px 2px 2px;
+			   margin-right: 0px;
+			    border: 0 !important;.  /*Removes border*/
+            
+            -webkit-appearance: none;
+            /*Removes default chrome and safari style*/
+            
+            -moz-appearance: none;
+            /*Removes default style Firefox*/
+        }
+        .show {
+            border: none;
+            background-color: #EA1A65;
+            width: 60%;
+            height: 40px;
+            color: #fff;
+            margin-bottom: 10px;
+			    padding-top: 12px;
+    padding-left: 10px
+        }
+ .canceltype-form{
+			color:#fff !important;
+			font-weight:400;
+		}
+        label {
+            color: #fff;
+            font-size: 14px;
+			padding-top:0px !Important;
+        }
+        .checkbox {
+            border: none !important;
+        }
+        .formfilter {
+            background-color: #fff;
+            width: 100%;
+            height: 35px;
+            border-radius: 5px;
+            color: #000;
+            font-size: 12px;
+        }
+        .topmargin {
+            margin-top: -8px;
+        }
+        .title-form {
+            margin-left: 7px;
+            font-size: 14px;
+            color: #000;
+            margin-top: 6px;
+        }
+        .form-check {
+            width: 16px;
+            height: 16px;
+            background: #fff;
+            border: 2px solid #EA1A65;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            float: right;
+            margin-right: 11px !important;
+            margin-top: 8px !important;
+        }
+        .labelinput {
+            margin-right: 30px !important;
+            width: 18px;
+            height: 18px;
+        }
+        input[type=checkbox] {
+            background: #fff;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            height: 16px;
+            width: 16px;
+        }
+        .darrow {
+            float: right;
+            margin-top: -4px;
+			cursor:pointer
+        }
+		input[type="checkbox"]:checked {
+  
+  
+ 
+  
+}
+		
+		
+			.content{
+			width: 100%;
+				margin: 10px auto 0;
+			}
+			.select{
+				padding: 5px 10px;
+				border-radius: 2px;
+				border-color: #dedede;
+				font-size: 12px;
+			}
+			.accordion{
+				margin-top: 30px;
+			}
+			.row{
+				margin: 10px;
+				text-align: center;
+			}
+			.row.colored div{
+				background: #f9f9f9;
+				padding: 15px 10px;
+				border: solid 1px #dedede;
+				color: #000;
+			}
+			.row.colored label{
+				font-size: 12px;
+				color: #555;
+			}
+			.colors div{
+				margin: 25px auto 0;
+				width: 30px;
+				height: 30px;
+				display: inline-block;
+				cursor: pointer;
+				border-top-left-radius: 10px;
+				border-bottom-right-radius: 10px;
+			}
+			.colors div.grey{ background-color: #dedede; }
+			.arw{
+				float:right;
+					transform: rotate(270deg);
+				}
+
+        /* responsive goes here */
+
+        @media only screen and (min-width: 220px) and (max-width: 767px){
+
+        	.roomtype-form{
+        		display: none;
+
+        		}
+				.content{
+				display:block !important;
+				 display: block !important;
+    width: 100%;
+    margin-top: 10px;
+
+				}
+				.filterbg {
+    padding-right: 0px !important;
+    z-index: 600;
+    position: absolute;
+    margin-top: 53px !important;
+}
+				 .hrfilter {
+           display:none
+        }
+        		.propertytype-form{
+        			display: none;
+        		}
+        		.pricerange-form{
+
+        			display: none;
+        		}
+        		.sizetype-form{
+
+        			display: none;
+        		}
+        		.aminitiestype-form{
+					display: none;
+
+        		}
+				.hostlanguage-form{
+					display: none;
+				}
+				.areatype-form{
+					display: none;
+				}
+				.tagstype-form{
+
+					display: none;
+				}
+				.canceltype-form{
+
+					display: none;
+				}
+				.show{
+				width: 100%;
+				}
+				.btnshow{
+				
+				margin-top: -45%;
+					}
+					.advfltr{
+						text-align: center;
+margin-left: 0px;
+font-size: 20px;
+color: #787878;
+						}
+						.closefilter{
+							float: right; margin-right: 11px; margin-top: 5px;
+							
+						}
+
+
+
+        	}
